@@ -8,6 +8,8 @@ if (nilai === 5) {
     console.log("Ratusan")
 } else if (nilai >= 1000) {
     console.log(nilai)
+} else if (nilai <= 0) {
+    console.log('Kok Minus?')
 } else {
     console.log('Bukan angka yang diminta!')
 }
